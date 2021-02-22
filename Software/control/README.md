@@ -15,24 +15,24 @@
   </a>
 
   <!-- PROJECT TITLE -->
-  <h1 align="center">OSU HART Launch Communications</h1>
+  <h1 align="center"><#PROJECT TITLE#></h1>
 
   <p align="center">
-    <!-- SHORT PROJECT DESCRIPTION -->
-    PCB's for Communication between the Control and Ignition Boxes
+    <!-- PROJECT DESCRIPTION -->
+    <#A brief description of / introduction to the project goes here.#>
     <br />
     <!-- LINK TO DOCUMENTATION -->
-    <a href="https://hart-avionics.github.io/osu-hart-launch-communications/"><strong>Explore the docs »</strong></a>
+    <a href="<#LINK TO DOCUMENTATION#>"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <!-- LINK TO DEMO
-    <a href="INSERT LINK TO DEMO HERE">View Demo</a>
-    · -->
-    <!-- LINK TO ISSUES -->
-    <a href="https://github.com/HART-Avionics/osu-hart-launch-communications/issues">Report Bug</a>
+    <!-- LINK TO DEMO -->
+    <a href="<#LINK TO DEMO#>">View Demo</a>
     ·
     <!-- LINK TO ISSUES -->
-    <a href="https://github.com/HART-Avionics/osu-hart-launch-communications/issues">Request Feature</a>
+    <a href="LINK TO ISSUES">Report Bug</a>
+    ·
+    <!-- LINK TO ISSUES -->
+    <a href="LINK TO ISSUES">Request Feature</a>
   </p>
 </p>
 
@@ -60,18 +60,7 @@ Table of Contents
 About the Project
 ---------------------
 <!-- Description of the project and it's intended purpose or origin story. -->
-The goal of this project is to have two identical PCB's (one for the Control Box and one for the Ignition Box) that can either take input from the User Interface or output to the Ignition Box's relays used to set off the rocket booster ignitor. Please refer to the [Launch Control Software][launch-ctrl] and [Launch Ignition Software][launch-igtn] repositories for details about the software.
-
-This project is currently under construction:
-- [ ] User Documentation
-  - TODO
-- [ ] Software repositories
-  - Will eventually be included as git submodules
-- [x] Development atrifacts and resources
-- [ ] Ordering and assembly information
-  - TODO?
-- [ ] Testing reports
-  - TODO
+This project is currently under construction.
 
 <a name="about-the-project-built-with"></a>
 ### Built with
@@ -115,7 +104,7 @@ $ sudo apt-get install texlive-latex-recommended texlive-fonts-recommended texli
 ### Installing
 1. Clone the repo
     ```bash
-    $ git clone https://github.com/HART-Avionics/osu-hart-launch-communications.git
+    $ git clone https://github.com/HART-Avionics/<#PROJECT#>.git
     ```
 
 <a name="usage"></a>
@@ -187,19 +176,17 @@ Acknowledgements
 -->
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[cicd-shield]: https://github.com/HART-Avionics/osu-hart-launch-communications/workflows/CI/CD/badge.svg?branch=develop
-[cicd-url]: https://github.com/HART-Avionics/docs/actions "CI/CD"
-[contributors-shield]: https://img.shields.io/github/contributors/HART-Avionics/osu-hart-launch-communications
-[contributors-url]: https://github.com/HART-Avionics/osu-hart-launch-communications/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/HART-Avionics/osu-hart-launch-communications
-[forks-url]: https://github.com/HART-Avionics/osu-hart-launch-communications/network/members
-[stars-shield]: https://img.shields.io/github/stars/HART-Avionics/osu-hart-launch-communications
-[stars-url]: https://github.com/HART-Avionics/osu-hart-launch-communications/stargazers
-[issues-shield]: https://img.shields.io/github/issues/HART-Avionics/osu-hart-launch-communications
-[issues-url]: https://github.com/HART-Avionics/osu-hart-launch-communications/issues
-[license-shield]: https://img.shields.io/github/license/HART-Avionics/osu-hart-launch-communications
-[license-url]: https://github.com/HART-Avionics/osu-hart-launch-communications/blob/main/LICENSE
+[cicd-shield]: https://github.com/Anatrax/HART-Avionics-<#PROJECT#>/workflows/<#WORKFLOW#>/badge.svg?branch=develop
+[cicd-url]: https://github.com/HART-Avionics/docs/actions "<#WORKFLOW#>"
+[contributors-shield]: https://img.shields.io/github/contributors/HART-Avionics/<#PROJECT#>
+[contributors-url]: https://github.com/HART-Avionics/<#PROJECT#>/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/HART-Avionics/<#PROJECT#>
+[forks-url]: https://github.com/HART-Avionics/<#PROJECT#>/network/members
+[stars-shield]: https://img.shields.io/github/stars/HART-Avionics/<#PROJECT#>
+[stars-url]: https://github.com/HART-Avionics/<#PROJECT#>/stargazers
+[issues-shield]: https://img.shields.io/github/issues/HART-Avionics/<#PROJECT#>
+[issues-url]: https://github.com/HART-Avionics/<#PROJECT#>/issues
+[license-shield]: https://img.shields.io/github/license/HART-Avionics/<#PROJECT#>
+[license-url]: https://github.com/HART-Avionics/<#PROJECT#>/blob/main/LICENSE
 [sphinx-docs]: https://www.sphinx-doc.org/en/master/index.html
 [donate-url]: https://osuaiaa.com/donate
-[launch-ctrl]: https://github.com/hart-avionics/OSU-HART-Launch-Control-Software/ "Launch Control Software Repo"
-[launch-igtn]: https://github.com/hart-avionics/OSU-HART-Launch-Ignition-Software/ "Launch Ignition Software Repo"
